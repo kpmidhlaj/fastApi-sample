@@ -1,0 +1,36 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile.lock
+
+# FastAPI & Python Dependencies
+*.log
+*.sqlite3
+instance/
+alembic/versions/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+config.json
+
+# Docker
+docker-compose.override.yml
